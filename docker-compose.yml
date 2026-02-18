@@ -3,10 +3,10 @@
 services:
     # image project
     app:
+        container_name: especializati-laravel-9
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: especializati-laravel9-app
         image: especializati/laravel9-app
         restart: unless-stopped
         working_dir: /var/www/
@@ -18,6 +18,8 @@ services:
             - laravel-9
 
     # nginx
+
+    
     nginx:
         container_name: especializati-nginx
         image: nginx:alpine
