@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Document</title>
+        <title>Listagem do Capeador</title>
     </head>
     <body>
     @extends('layouts.app')
